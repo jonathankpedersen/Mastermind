@@ -13,16 +13,6 @@ class Pins{
   private int pinStroke;
  
   
-    /*if(mouseX>50 && mouseY>50 && mouseX<150 && mouseY<150){
-      pinColor = color(255,0,0);
-      return pinColor;
-    }else if(mouseX>150 && mouseY>50 && mouseX<250 && mouseY<150){
-      pinColor = color(0,255,0);
-      return pinColor;
-    }
-    return pinColor;
-  }*/
-  
   public Pins(int x, int y, int size){
     this.x = x;
     this.y = y;
